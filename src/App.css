@@ -1,38 +1,104 @@
-.App {
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: #fff;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* margin-left: 4vw; */
+  border-bottom: 2px solid black;
+  height: 10vh;
+  margin: 0 5vw;
+}
+
+.contact-info h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0%;
+  width: 40vw;
+  font-size: 3vw;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100vw;
+  font-weight: bold;
+}
+
+.links a {
+  margin: 0 2vw;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-info a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  color: blue;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+  color: green;
+}
+
+.contact-info p {
+  margin: 0%;
+}
+
+.git {
+  display: flex;
+  flex-direction: row;
+}
+
+.git img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.home-page {
+  /* height: 100vh; */
+  /* width: 100vw; */
+}
+
+.websites a:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+.websites {
+  display: flex;
+  justify-content: space-around;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.websites img {
+  height: 25vh;
+  width: 25vw;
+  border-radius: 3rem;
+  box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.5);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.websites a {
+  text-decoration: none;
+  color: black;
+  margin: 2vw;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.date {
+  font-weight: 100;
+  margin: 0%;
 }

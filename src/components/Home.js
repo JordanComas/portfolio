@@ -10,14 +10,14 @@ const Home = () => {
         <a href="https://heel2toe.netlify.app/" target="_blank">
           <h2>Heel2Toe</h2>
           <img src={heel2toe} alt="No Image Available" />
-          <p className="date">August 2, 2022</p>
+          <p className="date">June 17, 2022</p>
           <h3>Description</h3>
           <p>Full-stack website for looking up shoes</p>
         </a>
         <a href="https://gamev.netlify.app/" target="_blank">
           <h2>Gameverse</h2>
           <img src={gamev} alt="No Image Available" />
-          <p className="date">August 2, 2022</p>
+          <p className="date">July 7, 2022</p>
           <h3>Description</h3>
           <p>A website with a game API to look for any game</p>
         </a>
